@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:textSize="40sp"
+      android:layout_centerHorizontal="true"
+      android:text="Pixabay"
+      android:layout_marginTop="65dp"/>
+
+  <Button
+      android:id="@+id/button_cat"
+      android:text="cats"
+      android:layout_below="@+id/title"
+      android:textColor="@android:color/white"
+      android:textStyle="bold"
+      android:textSize="26sp"
+      android:layout_centerHorizontal="true"
+      android:layout_height="80dp"
+      android:layout_width="250dp"
+      android:layout_marginTop="70dp"
+      android:background="@drawable/pink_button"/>
+
+  <Button
+      android:id="@+id/button_flower"
+      android:layout_height="80dp"
+      android:layout_width="250dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:layout_below="@+id/button_cat"
+      android:text="flowers"
+      android:background="@drawable/green_button"
+      android:textColor="@android:color/white"
+      android:textStyle="bold"
+      android:textSize="26sp"
+      />
+
+</RelativeLayout>
